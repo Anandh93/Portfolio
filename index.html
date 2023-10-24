@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="anand.css" type="text/CSS">
+    <script src="https://kit.fontawesome.com/32d874f748.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1><span id="k">A</span>nand.</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="head-text">
+                    <p> Front-End Developer</p>
+                    <h1> Nice To Meet You! <br> Hi, I'm <span>Anand</span> </h1>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--------------------------------------------------about--------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image.png" alt="img">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello! I'm Arulanandhu, a passionate and dedicated frontend developer with a knack for creating stunning and user-friendly web experiences.
+                         With experience under my belt,
+                         I have honed my skills in HTML, CSS to craft visually appealing and responsive websites.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="ab">
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web Interface and Multipage with responsive</li>
+                            <li><span>Content Creator</span><br>Creative Ideas for Media,Designing a page with innovative ideas</li>
+                            <li><span>Front-End,Java,Python</span><br>Strong in Basics of These Languages By Well Known Person</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="education">
+                        <ul>
+                            <li><span>2021 - 2024</span><br>BCA Ananda College Devakottai</li><br>
+                            <li><span>2021</span><br>st.joseph hr sec school, sekkakudi</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                            <li>As a fresher in frontend development, I have gained valuable hands-on experience in building engaging websites and collaborating effectively in teams. With a strong foundation in HTML, CSS, and JavaScript, 
+                                I am eager to continue learning and contribute to innovative projects.</li><br>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------------------services------------------------------------------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I offer comprehensive web development services, including responsive design and development, user interface optimization, and seamless integration of frontend and backend technologies.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Project Building</h2>
+                <p>I specialize in project building, delivering end-to-end solutions from concept to deployment. With expertise in requirements analysis, architecture design, and efficient project management, I ensure successful and timely project completion.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>I provide end-to-end app development services, encompassing UI/UX design and development, seamless integration of backend functionality, and thorough testing and optimization for a smooth user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------portfolio--------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/resimg.avif" alt="">
+                <div class="layer">
+                    <h3>Shop Webpage</h3>
+                    <p>As my own, I first created my project work for a restaurant webpage for own to develop my skils as <br>a frontend developer  for my career </p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/clglogin.png" alt="">
+                <div class="layer">
+                    <h3>College Login Form</h3>
+                    <p>I created simple login form for a college in the name of <br>
+                        ananda for my experience and practise for my code stability as frontend developer  </p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pfimage.png" alt="">
+                <div class="layer">
+                    <h3>Personal Webpage</h3>
+                    <p>I wonder this was created by me for my frontend practise as <br> project which your in ,
+                        this is always be memorable as <br>i created and launched to continue as Developer</p>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------------------------------------------contact------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <a href="mailto:arulanandh2004@gmail.com" type="email"><i class="fa-solid fa-paper-plane"></a></i>arulanandh2004@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>9361748272</p>
+                <div class="social-icons">
+                    
+                    <a href="https://instagram.com/_anandh_93?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com/anandh_93?t=tEXY3wCc-80NGuf1V1r9uQ&s=09" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/anand-a-736060296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Anandh93" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a class="btn btn2" href="resume.png" download >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" id="" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2" Download>submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> &copy  Copyright @ anand. Made With  <i class="fa-solid fa-heart"></i>  By  CCodeWithanand</p>
+    </div>
+</div>
+
+<script>
+    
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontains= document.getElementsByClassName("tab-contains");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontain of tabcontains){
+            tabcontain.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemeu.style.right ="0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right ="-250px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyFPH9S7mmTUmhLFMPR0qz3AhBfxCl_hlIpS9bXFBMIaAuuS4DCYbc3MFIYe1gIYst0A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
